@@ -1,0 +1,3 @@
+- Adicionar a biblioteca 
+(BootsFaces-OSP-0.8.6-dist-default.jar).
+- Caso esteja ocorrendo erros de referência na biblioteca, clique com o botão direito no projeto e selecione a opção "resolver problemas..." e referencie para a biblioteca da mesma versão utilizada.
