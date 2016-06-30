@@ -7,18 +7,36 @@
     <h:head>
         <title>Hangeek</title>
         <ui:include src="templates/header.xhtml"/>
-        <style>
-            @import "resources/fundo.css";
-        </style>
+        <!--        <style>
+                  @import "resources/fundo.css";
+                   @import "resources/jogocss.scss";
+                </style>-->
+        <link rel="stylesheet" href="resources/jogocss.scss"></link>
     </h:head>
     <!--imagem de background star wars-->
     <h:body>
-<!--        <div id="fundo-externo">-->
-            <div id="fundo">
-                <img src="templates/starwars_background.png" />
+        <!--        <div id="fundo-externo">-->
+        <!--        <div id="fundo">
+                    <img src="templates/starwars_background.png" />
+                </div>-->
+        <div id="back">
+            <div class="wrapper">
+                <div id="buttons">
+                </div>  
+                <p id="catagoryName"></p>
+                <div id="hold">
+                </div>
+                <p id="mylives"></p>
+                <p id="clue"></p>  
+                <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+                <div class="container">
+                    <button id="hint">Dica</button>
+                    <button id="reset">Jogar de novo</button>
+                </div>
             </div>
+        </div>
         <!--</div>-->
-        
+        <script src="resources/jogo.js"></script>
     </h:body>
 </html>
 
