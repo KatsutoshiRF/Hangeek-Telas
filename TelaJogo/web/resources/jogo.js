@@ -42,7 +42,7 @@ window.onload = function () {
   // Select Catagory
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
-      catagoryName.innerHTML = "A categoria escolhida foi Star Wars";
+      catagoryName.innerHTML = "<br/><br/><br>";
     }
   }
 
@@ -70,13 +70,13 @@ window.onload = function () {
   
   // Show lives
    comments = function () {
-    showLives.innerHTML = "Voce tem " + lives + " vida(s)";
+    showLives.innerHTML = "Você tem "+ lives + " vida(s)";
     if (lives < 1) {
       showLives.innerHTML = "Fim de jogo";
     }
     for (var i = 0; i < geusses.length; i++) {
       if (counter + space === geusses.length) {
-        showLives.innerHTML = "Você venceu!";
+        showLives.innerHTML = "Você venceu!<?xml version='1.0' encoding='UTF-8' ?>";
       }
     }
   }

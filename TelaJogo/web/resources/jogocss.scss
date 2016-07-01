@@ -62,10 +62,11 @@ body {
     font-size:18px;
 }
 
-.back{
-     background-image: url("../templates/bg.jpg");
+.wrapper{
+     background-image: url("../templates/starwars_background.png");
      width: 100%;
      height: 100%;
+     //background-size: 100%;
 }
 
 .wrappper{
@@ -104,7 +105,8 @@ p{
     @include clear;
     margin:15px auto;
     padding:0;
-    max-width:900px;
+    max-width:600px;
+    background-color: black;
 }
 
 #alphabet li {
@@ -113,17 +115,18 @@ p{
     list-style:none;
     width:35px;
     height:30px;
-    padding-top:10px;
+    padding-top:3px;
     background:$white;
+    background-color: black;
     color:$base-color;
     cursor:pointer;
     @include corners(5px);
-    border: solid 1px $white;
+    border: solid 1px white;
 
     &:hover{
         background:$base-color;
-        border: solid 1px $white;
-        color:$white;
+        border: solid 2px $white;
+        color:white;
     }
 }
 
@@ -163,7 +166,7 @@ button{
     @include corners (5px);
     background:$base-color;
     color:$white;
-    border: solid 1px $white;
+    border: solid 2px $white;
     text-decoration:none;
     cursor:pointer;
     font-size:1.2em;

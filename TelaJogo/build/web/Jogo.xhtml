@@ -2,16 +2,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:b="http://bootsfaces.net/ui"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
         <title>Hangeek</title>
         <ui:include src="templates/header.xhtml"/>
-        <!--        <style>
-                  @import "resources/fundo.css";
-                   @import "resources/jogocss.scss";
-                </style>-->
+        
         <link rel="stylesheet" href="resources/jogocss.scss"></link>
+        <style type="text/css">
+            body { color: white; }
+            .container{
+                color: black;
+            }
+        </style>
+        
     </h:head>
     <!--imagem de background star wars-->
     <h:body>
@@ -24,6 +27,7 @@
                 <div id="buttons">
                 </div>  
                 <p id="catagoryName"></p>
+                
                 <div id="hold">
                 </div>
                 <p id="mylives"></p>
